@@ -1,0 +1,287 @@
+<Config>
+  <General>
+    <Language></Language>
+    <ScriptLanguage>VBScript</ScriptLanguage>
+    <ProcBegin>Sub %s</ProcBegin>
+    <ProcEnd>End Sub</ProcEnd>
+    <ScriptRoutines></ScriptRoutines>
+    <MinimizeToTray>0</MinimizeToTray>
+    <StartMinimized>0</StartMinimized>
+    <AllowScriptGUI>0</AllowScriptGUI>
+    <ScriptTimeout>10</ScriptTimeout>
+    <BufferTimeout>2000</BufferTimeout>
+    <BufferNotification>1</BufferNotification>
+    <BackupsCount>0</BackupsCount>
+    <BackupPath>backup</BackupPath>
+  </General>
+  <Macros>
+    <Macro>
+      <Device>Keyb4</Device>
+      <Name>be right back</Name>
+      <KeyCode>98</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>HIDMacros.SendKeysSlow "{F14}",50</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>Keyb4</Device>
+      <Name>bye</Name>
+      <KeyCode>99</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>HIDMacros.SendKeysSlow "{F15}",50</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>Keyb4</Device>
+      <Name>desktop mute</Name>
+      <KeyCode>105</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>HIDMacros.SendKeysSlow "{F21}",50</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>Keyb4</Device>
+      <Name>desktop unmute</Name>
+      <KeyCode>109</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>HIDMacros.SendKeysSlow "{F22}",50</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>Keyb4</Device>
+      <Name>dis deafen</Name>
+      <KeyCode>13</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>HIDMacros.SendKeysSlow "^{F12}",50</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>Keyb4</Device>
+      <Name>dis mute</Name>
+      <KeyCode>107</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>HIDMacros.SendKeysSlow "^{F11}",50</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>Keyb4</Device>
+      <Name>face</Name>
+      <KeyCode>102</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>HIDMacros.SendKeysSlow "{F18}",50</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>Keyb4</Device>
+      <Name>face + screen</Name>
+      <KeyCode>101</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>HIDMacros.SendKeysSlow "{F17}",50</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>Keyb4</Device>
+      <Name>mic mute</Name>
+      <KeyCode>103</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>HIDMacros.SendKeysSlow "{F19}",50</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>Keyb4</Device>
+      <Name>mic unmute</Name>
+      <KeyCode>104</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>HIDMacros.SendKeysSlow "{F20}",50</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>Keyb4</Device>
+      <Name>screen</Name>
+      <KeyCode>100</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>HIDMacros.SendKeysSlow "{F16}",50</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>Keyb4</Device>
+      <Name>starting soon</Name>
+      <KeyCode>97</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>HIDMacros.SendKeysSlow "{F13}",50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+  </Macros>
+  <Devices>
+    <Keyboard>
+      <Name>Keyb6</Name>
+      <SystemID>\\?\MICROSOFT KEYBOARD RID\0</SystemID>
+    </Keyboard>
+    <Mouse>
+      <Name>Mouse1</Name>
+      <SystemID>\\?\HID#VID_1532&amp;PID_005C&amp;MI_00#8&amp;278DD3B2&amp;0&amp;0000#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Mouse>
+    <Keyboard>
+      <Name>Keyb1</Name>
+      <SystemID>\\?\HID#VID_1532&amp;PID_005C&amp;MI_02#8&amp;198E1CBC&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Keyboard>
+      <Name>Keyb2</Name>
+      <SystemID>\\?\HID#VID_1532&amp;PID_005C&amp;MI_01&amp;COL01#8&amp;1CA9077&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Keyboard>
+      <Name>Keyb3</Name>
+      <SystemID>\\?\HID#VID_046D&amp;PID_C337&amp;MI_01&amp;COL01#8&amp;4706013&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Keyboard>
+      <Name>Keyb5</Name>
+      <SystemID>\\?\HID#VID_046D&amp;PID_C337&amp;MI_00#8&amp;28479DD5&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Keyboard>
+      <Name>Keyb4</Name>
+      <SystemID>\\?\HID#VID_04D9&amp;PID_1203&amp;MI_00#8&amp;394B0CA4&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+  </Devices>
+  <Map>
+    <LastLatitude>50.10188601965</LastLatitude>
+    <LastLongitude>14.2264752029291</LastLongitude>
+    <LastZoom>13</LastZoom>
+    <Locked>1</Locked>
+    <AlwaysOnTop>0</AlwaysOnTop>
+    <WindowLeft>78</WindowLeft>
+    <WindowTop>78</WindowTop>
+    <WindowWidth>434</WindowWidth>
+    <WindowHeight>321</WindowHeight>
+    <WindowMaximized>0</WindowMaximized>
+    <WindowVisible>0</WindowVisible>
+    <ShowLayers>1</ShowLayers>
+  </Map>
+</Config>
